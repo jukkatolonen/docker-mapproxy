@@ -12,7 +12,7 @@ EOM
 
 if [ ! -f /app/yaml/mapproxy.yaml ] ;then
     mapproxy-util create -t base-config /app/yaml
-  fi
+fi
 
 echo "Mapproxy starting in single mode"
 
