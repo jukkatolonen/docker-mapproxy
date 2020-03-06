@@ -27,7 +27,7 @@ $ docker run --name 'docker-mapproxy' -p 8080:8080 --rm -v /your/local/mount:/ap
 ### YAML files for MapProxy
 In single mode base config files will be created to local mount directory if `mapproxy.yaml` does not exist.
 
-In multi no initial configuration is created. Multi mode reads all the `yaml` files from local mount.
+In multi mode no initial configuration is created. Multi mode reads all the `yaml` files from local mount.
 
 
 
