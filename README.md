@@ -2,7 +2,7 @@
 
 ### Note
 
-uWSGI server. Uses this [fork](https://github.com/jukkatolonen/mapproxy) of [MapProxy](https://github.com/mapproxy/mapproxy) to be able to use gzipped response.
+[uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/index.html) server. Uses this [fork](https://github.com/jukkatolonen/mapproxy) of [MapProxy](https://github.com/mapproxy/mapproxy) to be able to use gzipped response.
 
 
 ### Clone
