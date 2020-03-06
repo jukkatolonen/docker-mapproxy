@@ -1,18 +1,17 @@
 # MapProxy Dockerfile
 
-## Get the container
 
-### Local clone
+### Clone
 ```
 $ git clone https://github.com/jukkatolonen/docker-mapproxy
 ```
 
-### Build Docker image
+### Build
 ```
 $ docker build -t docker-mapproxy .
 ```
 
-### Run Docker image
+### Run
 
 In single mode:
 ```
