@@ -17,7 +17,7 @@ $ docker build -t docker-mapproxy .
 
 ### Run
 
-Single (default) mode:
+Single (default but pretty useless) mode:
 ```
 $ docker run --name 'docker-mapproxy' -p 8080:8080 --rm -v /your/local/mount:/app/yaml docker-mapproxy
 ```
