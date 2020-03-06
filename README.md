@@ -23,3 +23,11 @@ In multi mode:
 ```
 $ docker run --name 'docker-mapproxy' -p 8080:8080 --rm -v /your/local/mount:/app/yaml docker-mapproxy multi
 ```
+
+### YAML files for MapProxy
+Single mode expects that you have `mapproxy.yaml` in your local mount directory. Multi mode reads all the `yaml` files from local mount.
+
+There are no initial yaml files created.
+
+
+
