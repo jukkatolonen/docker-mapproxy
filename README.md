@@ -1,4 +1,4 @@
-# MapProxy Dockerfile
+# Dockerized MapProxy
 
 
 ### Clone
