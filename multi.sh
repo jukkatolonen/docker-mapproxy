@@ -7,7 +7,7 @@ UWGS="/app/uwsgi.ini"
 
 /bin/cat <<EOM >$FILE
 from mapproxy.multiapp import make_wsgi_app
-application = make_wsgi_app('$YAML_PATH', allow_listing=True)
+application = make_wsgi_app('$YAML_PATH', allow_listing=False)
 EOM
 
 echo "Mapproxy starting in multi mode"
