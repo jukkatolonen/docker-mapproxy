@@ -2,7 +2,7 @@
 
 ### Note
 
-[uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/index.html) server. Uses this [fork](https://github.com/jukkatolonen/mapproxy) of [MapProxy](https://github.com/mapproxy/mapproxy) to be able to use gzipped response.
+[uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/index.html) server. Uses this [fork](https://github.com/jukkatolonen/mapproxy) of [MapProxy](https://github.com/mapproxy/mapproxy) to be able to use gzipped files.
 
 
 ### Clone
@@ -32,6 +32,7 @@ In single mode base config files will be created to local mount directory if `ma
 
 In multi mode no initial configuration is created. This mode reads all the `.yaml` files from the local mount.
 
+With current settings container is running on `localhost:8080`
 
 
 
